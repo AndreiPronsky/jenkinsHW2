@@ -11,7 +11,7 @@ public class ContentController {
     private static final String MODIFIED = "Content changed !!!";
     @GetMapping("/")
     public String getContent() {
-        return MODIFIED;
+        return CONTENT;
     }
 }
 
