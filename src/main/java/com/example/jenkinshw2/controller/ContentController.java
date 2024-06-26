@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 public class ContentController {
-    private static final String CONTENT = "Hello CI/CD";
+    private static final String CONTENT = "Hello CI/CD !!!";
 
     @GetMapping("/")
     public String getContent() {
